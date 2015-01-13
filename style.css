@@ -1,0 +1,225 @@
+
+@import url(http://fonts.googleapis.com/css?family=Righteous);
+
+
+
+	body{
+		margin:0px;
+		padding:0px;
+	}
+
+	#content{
+		margin:auto;
+		width:1100px;
+
+	}
+
+	header{
+		display:block;
+		height:50px;
+		width:1100px;
+		margin-top:30px;
+		margin-bottom:40px;
+	}
+	#logo{
+		display:inline-block;
+		float:left;
+		width:200px;
+		height:50px;
+
+	}
+
+	#logo>span{
+		display:block;
+		color:#c0392b;
+		text-shadow:1px 2px 3px black;
+		font-size:40px;
+		font-weight:bolder;
+		letter-spacing:2px;
+		font-family: Righteous;
+	}
+
+	#smile{
+		display:inline-block;
+		float:left;
+		margin-left:30%;
+		width:200px;
+		height:50px;
+	}
+
+	#smile>#no_va_con_span{
+	padding:10px 5px 10px 10px;
+	background-color:cyan;
+	width:40px;
+	height:20px;
+	margin:0px !important;
+    transform: rotate(90deg);
+    border-radius:10px;
+    letter-spacing:2px;
+	}
+
+	#buscador{
+		float:right;
+	}
+
+	#lupa{
+		width:15px;
+		height:15px;
+		margin-left:4px;
+		margin-top:4px;
+		padding:0;
+		position:absolute;
+		z-index:1;
+		background:url("lupa-fosca.png");
+	}
+
+	#caja_busca{
+		width:100px;
+		height:20px;
+		border-radius:10px;
+		padding-left:20px;
+		border:0;
+		box-shadow:inset 0 0 10px rgba(255, 0, 0, 1);
+	}
+
+	#caja_busca:hover, #caja_busca:focus{
+		width:130px;
+	}
+
+#menu ul,
+#menu li,
+#menu span,
+#menu a {
+ margin: 0;
+ padding: 0;
+ position: relative;
+}
+
+#menu {
+	display:block;
+	margin:auto;
+	width:1100px;
+	height:30px;
+	margin-bottom:20px;
+}
+
+#menu a {
+	color:white;
+	background-color:#C0392B;
+	line-height: 10px;
+	text-decoration: none;
+	height:10px;
+	width:100px;
+	text-align:center;
+	display: inline-block;
+	padding: 20px;
+	font-family: Righteous;
+	font-size:14px;
+}
+
+#menu li:nth-child(2n)>a{
+	border-radius:20px 20px 0px 0px;
+}
+
+#menu li:nth-child(2n+1)>a{
+	border-radius:5px;
+}
+
+#menu li:last-child>a{
+	width:330px;
+	background-color:green;
+	text-align:right;
+}
+
+#menu ul {
+ list-style: none;
+}
+#menu > ul {
+ float: left;
+}
+#menu > ul > li {
+ float: left;
+ margin-left:2px;
+ margin-right:2px;
+}
+
+#menu > ul > li.active > a {
+ -webkit-box-shadow: inset 0 0 3px #000000;
+ background: #070707;
+
+
+}
+#menu > ul > li:hover > a {
+ background: red;
+}
+
+
+#menu .submenu {
+ z-index: 1;
+}
+#menu .submenu:hover > ul {
+ display: block;
+}
+#menu .submenu ul {
+ display: none;
+ position: absolute;
+ top: 70%;
+ left: 20px;
+}
+
+#menu .submenu ul > li > a{
+	border:1px solid black;
+ 	height:10px;
+	width:100px;
+	border-radius:5px;
+	background-color:#C0392B;
+	text-align:center;
+}
+
+
+#menu .submenu ul li a {
+ display: block;
+}
+#menu .submenu ul li:hover a {
+ background: rgba(255,0,0,1);
+}
+
+
+#breadcrumbs{
+	display:block;
+	height:20px;
+	margin-top:50px;
+	margin-bottom:10px;
+}
+
+#breadcrumbs:before{
+	content:"Inici > ";
+}
+
+#cuerpo{
+	font-family: Righteous;
+	border-top: 0;
+	border-right:1px black dotted;
+	border-left:1px black dotted;
+	padding:20px;
+	box-shadow:2px 2px 15px black;
+}
+
+#cuerpo>p:first-line{
+
+}
+
+
+footer{
+	background-color:gray;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+}
+
+footer > a, a:visited{
+	color:white;
+}
